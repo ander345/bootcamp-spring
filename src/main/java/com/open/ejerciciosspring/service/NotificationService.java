@@ -7,7 +7,6 @@ import org.springframework.stereotype.Service;
 
 @Component
 public class NotificationService {
-
     public String hello(){
 
         System.out.println("saludando");

@@ -1,11 +1,15 @@
 package com.open.ejerciciosspring.service;
 //import java.*
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
-@Service
+@Component
 public class NotificationService {
+
     public String hello(){
+
         System.out.println("saludando");
         return "hola mundo";
     }
